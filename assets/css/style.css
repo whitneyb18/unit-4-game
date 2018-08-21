@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P|Space+Mono|VT323");
+body {
+  background-image: url(../images/background.png);
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-family: "VT323", monospace;
+  font-size: 6rem;
+}
+
+h3 {
+  font-family: "VT323", monospace;
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Space Mono", monospace;
+}
+
+.rules {
+  background-color: #ece9de;
+  padding: 20px;
+  border: 8px solid transparent;
+  border-image-slice: 21 21 20 21;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url("../images/border.png");
+}
+.goal {
+  background-color: transparent;
+  padding-left: 20px;
+  border: 8px solid transparent;
+  border-image-slice: 21 21 20 21;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url("../images/border.png");
+}
+.score {
+  background-color: transparent;
+  margin-top: 20px;
+  padding-left: 20px;
+  border: 8px solid transparent;
+  border-image-slice: 21 21 20 21;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url("../images/border.png");
+}
+.yourWins {
+  background-color: transparent;
+  text-align: center;
+  margin-top: 20px;
+  border: 8px solid transparent;
+  border-image-slice: 21 21 20 21;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url("../images/border.png");
+  height: 100%;
+}
+.yourLosses {
+  background-color: transparent;
+  text-align: center;
+  margin-top: 20px;
+  height: 100%;
+  border: 8px solid transparent;
+  border-image-slice: 21 21 20 21;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url("../images/border.png");
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 8px solid transparent;
+  border-image-slice: 50 48 48 48;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url("http://2.bp.blogspot.com/-vi87Y8ydZVg/TuyctTfRAVI/AAAAAAAAC8k/942RRwZk5jM/s1600/Twisted+Ribbon+Border4.BMP");
+}
